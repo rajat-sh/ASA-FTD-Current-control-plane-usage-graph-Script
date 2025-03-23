@@ -13,16 +13,21 @@ output file append disk0:/CP_CPU
 
  
 
-Then the attached script was used to get a time value plot of the 5 seconds CP CPU usage. 
+Then the attached script was use to get a time value plot of the 5 seconds, 1 minute, 5 minute CP CPU usage
+ 
+
+It outpts three graph and average of CP CPU usage.
 
  
 
-It outpts a graph and average of CP CPU usage.
-
- 
-
-RAJATSH-M-V7QW:LIST_PYTHON rajatsh$ python3 CP_CPU.py
-
+RAJATSH-M-V7QW:LIST_PYTHON rajatsh$ python3 23.py 
 Enter the file path: CP_CPU.txt
 
-Average of control plane values: 57.3
+Average of 5 seconds CP CPU Usage:
+57.3
+
+Average of 1 minute CP CPU Usage:
+57.0
+
+Average of 5 minute CP CPU Usage:
+55.6
