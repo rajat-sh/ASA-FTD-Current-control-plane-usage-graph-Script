@@ -31,3 +31,13 @@ Average of 1 minute CP CPU Usage:
 
 Average of 5 minute CP CPU Usage:
 55.6
+
+Script and data on which script operated are attached. User may choose to use exact EEM script and Python code to analyse. 
+
+ 
+
+Please note, EEM in example is running after 5 seconds, and script is plotting "5 seconds", "1 minute" and "5 minute" usage graphs. If your requirements are different, you will need to edit the EEM timeinterval. Python script will work with any time interval, but accurate data would be for e.g if you need to look at 5 seconds usage, run the EEM with 5 seconds interval and "5 seconds graph" is the data to analyze,  if you need to look at 1 min usage, run the EEM with 1 min. interval and "1 min graph" is the data to analyze and so on for 5 minutes,  What will be not so useful would to run the script after 15 minutes interval and look at 5 seconds graph. 
+
+
+
+
