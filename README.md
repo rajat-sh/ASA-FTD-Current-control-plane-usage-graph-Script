@@ -31,6 +31,10 @@ Average of 1 minute CP CPU Usage:
 
 Average of 5 minute CP CPU Usage:
 55.6
+![alt text](Figure_1.png)
+![alt text](Figure_2.png)
+![alt text](Figure_3.png)
+
 
 Script and data on which script operated are attached. User may choose to use exact EEM script and Python code to analyse. 
 
